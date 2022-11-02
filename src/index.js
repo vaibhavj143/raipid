@@ -27,7 +27,7 @@ app.get("/",async (req,res)=>{
     
     res.status(200).send({
       success:true,
-      message:"good"
+      message:"all set"
     })
 
   } catch (error) {
